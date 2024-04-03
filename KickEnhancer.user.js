@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kick.com Enhancer
 // @namespace    RishiSunak
-// @version      0.2
+// @version      0.3
 // @description  Kick.com Chat Overlay & Auto Unmute/1080p
 // @author       Rishi
 // @match        https://kick.com/*
@@ -73,7 +73,7 @@
         overlay.style.pointerEvents = 'none';
  
         const iframe = document.createElement('iframe');
-        iframe.src = `https://tools.kick.cx/chat?user=${streamerName}&animate=true&badges=true&commands=true&bots=true&textsize=15px`;
+        iframe.src = `https://cxwatcher.github.io/chat?user=${streamerName}&animate=true&badges=true&commands=true&bots=true&textsize=15px`;
         iframe.style.width = '100%';
         iframe.style.height = '100%';
         iframe.style.border = 'none';
